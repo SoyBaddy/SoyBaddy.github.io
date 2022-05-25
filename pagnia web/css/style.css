@@ -398,6 +398,11 @@ footer{
     .contenedor-footer{
         flex-direction: column;
         border: none;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .copy {
+        grid-column-start: span 2;
+        text-align: center;
     }
 
     .content-foo{
@@ -418,4 +423,5 @@ footer{
     .titulo-final{
         font-size: 20px;
     }
+
 }
