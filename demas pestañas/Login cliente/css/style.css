@@ -19,7 +19,7 @@
 
 }
 .nav-link{
-    color: darkgray;
+    color: #b2b2b2;
     text-decoration: none;
 }
 .nav-menu-link:hover{
@@ -31,7 +31,7 @@
      font-weight: bold;
      padding: 0 40px;
      line-height: 80px;
-     font-family:sans-serif; 
+     font-family:"montserrat", serif; 
  }
  .nav-menu-item{
      font-size: 18px;
@@ -45,7 +45,16 @@
      display: flex;
      margin-right: 40px;
      list-style: none;
+     font-family: "montserrat";
  }
+
+.nav p{
+    font-family: 'Libre Bodoni', serif;
+    color: #fff;
+    font-size: 1.8em;
+
+}
+
 
 body{
     padding: 90px 20px 0;
@@ -53,18 +62,19 @@ body{
     width: 0%;
     height: 650px;
     background:(#EBEBEB);  
+    font-family: "montserrat", serif;
    
    
     /*el cuerpo de la imagen o marco de la pantalla completa*/
     background-size: cover;
-    font-family: sans-serif;   
+    font-family: "montserrat", serif;   
     height: 0vh;
 }
 
 .login-box{
     width: 320px;
     height: 435px;
-    background: #EBEBEB;
+    background:#EBEBEB;
     color: #000;
     top: 60%;
     left: 50%;
@@ -131,10 +141,12 @@ border-radius: 20px ;
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
-    color: darkgray;
+    color: #777;
+    font-weight: 300 bold;
+    
 }
 .login-box a:hover{
         color: #000;
 }
     
-    
+
