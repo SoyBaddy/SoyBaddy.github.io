@@ -400,10 +400,6 @@ footer{
         border: none;
         grid-template-columns: repeat(1, 1fr);
     }
-    .copy {
-        grid-column-start: span 2;
-        text-align: center;
-    }
 
     .content-foo{
         margin-bottom: 20px;
@@ -422,6 +418,9 @@ footer{
 
     .titulo-final{
         font-size: 20px;
+        grid-column-start: span 2;
+        text-align: center;
     }
+
 
 }
