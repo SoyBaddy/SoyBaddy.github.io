@@ -480,11 +480,11 @@ img {
   }
   .main-footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
   .copy {
-    grid-column-start: span 4;
+    grid-column-start: span 2;
     text-align: center;
   }
 
